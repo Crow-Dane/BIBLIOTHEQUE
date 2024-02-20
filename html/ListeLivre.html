@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Biliothèque</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../UNIVERSITE.png" />
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../acceuil.html" class="logo">
+                        <img src="../biblio.jpg" alt="PHOTO">
+                        <span class="nav-item">Gestion de Bibliothèque</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="AjoutLivre.html">
+                        <i class="fas fa-book"></i>
+                        <span class="nav-item">Livre</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="ListeLivre.html">
+                        <i class="fas fa-folder-open"></i>
+                        <span class="nav-item">Bibliothèque</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="main">
+            <div class="main-top">
+                <h1>Tableau de bord</h1>
+            </div>
+            <div class="tete">
+                <label for="isbn">ISBN:</label>
+                <input type="search" id="isbn" name="isbn" required>
+                <input type="submit" value="Chercher">
+            </div>
+            <section class="main-listes">
+            <h1 id="h1">Liste des Livres</h1>
+            <table>
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteur</th>
+                    <th>Année de publication</th>
+                    <th>ISBN</th>
+                </tr>
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteur</th>
+                    <th>Année de publication</th>
+                    <th>ISBN</th>
+                </tr>
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteur</th>
+                    <th>Année de publication</th>
+                    <th>ISBN</th>
+                </tr>
+                <!-- Les données seront dynamiquement chargées ici -->
+            </table>
+        </section>
+        </section>
+    </div>
+</body>
+
+</html>
+
+const increase= ()=> {};
+const decrease= ()=> {};
+const cpt =0;
+<div class="containeur">
+
+    <div class="cpt">
+        <h1> {{cpt}}</h1>
+    </div>
+
+
+    <div class="cptbutton">
+
+        <button class="minus"> - </button>
+        <button class="plus"> + </button>
+
+    </div>
+
+</div>

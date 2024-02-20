@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Biliothèque</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../UNIVERSITE.png" />
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../acceuil.html" class="logo">
+                        <img src="../biblio.jpg" alt="PHOTO">
+                        <span class="nav-item">Gestion de Bibliothèque</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="AjoutLivre.html">
+                        <i class="fas fa-book"></i>
+                        <span class="nav-item">Livre</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="ListeLivre.html">
+                        <i class="fas fa-folder-open"></i>
+                        <span class="nav-item">Bibliothèque</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="main">
+            <div class="main-top">
+                <h1>Tableau de bord</h1>
+            </div>
+            <h1 id="h1">Ajouter un Livre</h1>
+            <form action="" method="post">
+                <label for="titre">Titre:</label>
+                <input type="text" id="titre" name="titre" placeholder="Entrer le titre du Livre" required>
+        
+                <label for="auteur">Auteur:</label>
+                <input type="text" id="auteur" name="auteur" placeholder="Entrer le nom de l'auteur" required>
+        
+                <label for="annee">Année de publication:</label>
+                <input type="number" id="annee" name="annee" placeholder="Entrer la date de publication" required>
+        
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="isbn" name="isbn" placeholder="Entrer le Code Identifiant Standard des Livres" required>
+        
+                <input type="submit" value="Ajouter">
+            </form>
+        </section>
+    </div> 
+</body>
+</html>
