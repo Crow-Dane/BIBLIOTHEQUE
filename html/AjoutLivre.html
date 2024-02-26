@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion de Biliothèque</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../UNIVERSITE.png" />
 </head>
 
@@ -53,9 +53,12 @@
                 <label for="isbn">ISBN:</label>
                 <input type="text" id="isbn" name="isbn" placeholder="Entrer le Code Identifiant Standard des Livres" required>
         
-                <input type="submit" value="Ajouter">
+                <input type="submit" value="Ajouter" onclick="ajouterLivre()">
             </form>
         </section>
-    </div> 
+    </div>
+    
+    
+    <script src="../Bibliotheque.js" type="text/javascript"></script>
 </body>
 </html>
