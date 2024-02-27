@@ -15,7 +15,7 @@ class Livre {
     }
   
     // Méthode pour ajouter un livre à la bibliothèque
-    ajouterLivre() {
+    ajouterLivre(livre) {
       this.livres.push(livre);
       console.log(`Le livre "${livre.titre}" a été ajouté à la bibliothèque.`);
     }
